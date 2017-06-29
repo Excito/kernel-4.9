@@ -1,0 +1,161 @@
+linux (1:4.9.34-1) UNRELEASED; urgency=medium
+
+  * Initial version for stretch
+  * Support for Bubba|2 removed
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Thu, 29 Jun 2017 16:17:42 -0500
+
+linux (1:3.18.27-1) jessie; urgency=medium
+
+  * New upstream version
+  * Harmonized B3 and B2 network options
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Mon, 22 Feb 2016 16:29:56 +0000
+
+linux (1:3.18.24-1) jessie; urgency=medium
+
+  * New upstream version
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Tue, 17 Nov 2015 21:24:41 -0500
+
+linux (1:3.18.22-3) jessie; urgency=medium
+
+  * Changed default value for bubbatwo led mode
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Wed, 14 Oct 2015 21:38:11 -0400
+
+linux (1:3.18.22-2) jessie; urgency=medium
+
+  * Small fix in bubbatwo driver
+  * Fix prerm/postinst script to remove depmod-generated files on removal/upgrade
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Tue, 06 Oct 2015 10:19:55 -0400
+
+linux (1:3.18.22-1) jessie; urgency=medium
+
+  * New upstream version 
+  * Re-added CONFIG_KEYBOARD_GPIO in b3 config for bubba-buttond
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Mon, 05 Oct 2015 18:51:24 -0400
+
+linux (1:3.18.21-2) jessie; urgency=medium
+
+  * Re-added rev 1 Bubba|2 DTS file see http://forum.excito.com/viewtopic.php?f=7&t=5821
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Sun, 13 Sep 2015 21:32:35 -0400
+
+linux (1:3.18.21-1) jessie; urgency=medium
+
+  * New upstream version
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Fri, 04 Sep 2015 21:26:59 -0400
+
+linux (1:3.18.20-1) jessie; urgency=medium
+
+  * New upstream version
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Tue, 11 Aug 2015 18:20:50 +0000
+
+linux (1:3.18.13-1) jessie; urgency=medium
+
+  * New upstream version ; patches, configuration and build adaptated
+  * debian packaging removed from upstream makefiles
+  * uImage build quirks added (thank to sakaki's work for gentoo on b2/b3)
+  * Changed default shutdown behaviour to board reset for both b2 and b3
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Sun, 12 Apr 2015 19:20:39 +0000
+
+linux (1:3.2.68-1) UNRELEASED; urgency=low
+
+  * New upstream version
+  * Added kirkwod U-Boot L2 cache fix
+  * Added all available colors inside gpio driver
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Fri, 20 Mar 2015 02:18:11 +0000
+
+linux (1:3.2.66-1) wheezy; urgency=low
+
+  * Initial release for the LTS 3.2 series
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Sat, 24 Jan 2015 17:17:03 -0500
+
+linux (1:2.6.39.4-13) vincent; urgency=low
+
+  * Separate the header packages for the differenc architecturies
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 20 Apr 2012 16:25:01 +0200
+
+linux (1:2.6.39.4-12) vincent; urgency=low
+
+  * import changed kernel options from B3 to B2 kernel config
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 17 Apr 2012 17:54:21 +0200
+
+linux (1:2.6.39.4-11) vincent; urgency=low
+
+  * Add HDIDEV support 
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 03 Apr 2012 18:32:59 +0300
+
+linux (1:2.6.39.4-10) vincent hugo; urgency=low
+
+  * Create header package
+
+ -- Carl Fürstenberg <carl@excito.com>  Mon, 13 Feb 2012 16:33:11 +0100
+
+linux (1:2.6.39.4-9) vincent hugo; urgency=low
+
+  * Adding postinst with user restart message (Closes: #1832)
+
+ -- Carl Fürstenberg <carl@excito.com>  Wed, 18 Jan 2012 14:06:17 +0100
+
+linux (1:2.6.39.4-8) vincent hugo; urgency=low
+
+  * Remame package to bubba3-kernel to simplify migration
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 10 Jan 2012 14:18:40 +0100
+
+linux (1:2.6.39.4-7) vincent hugo; urgency=low
+
+  * add bubba3-modules for conflicts et al
+
+ -- Carl Fürstenberg <carl@excito.com>  Mon, 09 Jan 2012 15:51:16 +0100
+
+linux (1:2.6.39.4-6) vincent hugo; urgency=low
+
+  * Adding patches for nfs4 support
+  * fix conflicts
+
+ -- Carl Fürstenberg <azatoth@gmail.com>  Wed, 21 Dec 2011 16:01:32 +0100
+
+linux (1:2.6.39.4-5) unstable; urgency=low
+
+  * update b3 kernel configuration patches
+  * enable parallel build and rename package for armel
+
+ -- Carl Fürstenberg <carl@excito.com>  Mon, 24 Oct 2011 14:38:15 +0200
+
+linux (1:2.6.39.4-4) unstable; urgency=low
+
+  * update Bubba|2 config
+  * testing new config
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 19 Aug 2011 14:21:36 +0200
+
+linux (1:2.6.39.4-3) unstable; urgency=low
+
+  * Add device tree files for Bubba|2
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 18 Aug 2011 17:50:03 +0200
+
+linux (1:2.6.39.4-2) unstable; urgency=low
+
+  * Increase epoch due to previous packages has epochs
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 18 Aug 2011 15:01:59 +0200
+
+linux (2.6.39.4-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Carl Fürstenberg <carl@excito.com>  Wed, 17 Aug 2011 18:39:16 +0200

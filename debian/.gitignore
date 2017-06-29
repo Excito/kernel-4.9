@@ -1,0 +1,11 @@
+!patches/*.patch
+files
+build
+*.debhelper.log
+*.substvars
+*.debhelper
+debhelper-build-stamp
+bubba3-kernel-headers-armel/*
+bubba3-kernel/*
+bubba3-kernel.prerm
+bubba3-kernel.postinst

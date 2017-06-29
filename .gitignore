@@ -53,11 +53,6 @@ Module.symvers
 /Module.markers
 
 #
-# Debian directory (make deb-pkg)
-#
-/debian/
-
-#
 # tar directory (make tar*-pkg)
 #
 /tar-install/
@@ -78,10 +73,6 @@ arch/*/include/generated
 
 # stgit generated dirs
 patches-*
-
-# quilt's files
-patches
-series
 
 # cscope files
 cscope.*
