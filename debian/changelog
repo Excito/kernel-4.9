@@ -1,9 +1,9 @@
-linux (1:4.9.47-1) UNRELEASED; urgency=medium
+linux (1:4.9.47-1) stable; urgency=medium
 
   * New upstream version
   * Added advanced router options
 
- -- Charles Leclerc <charles@darkcix.lan>  Mon, 04 Sep 2017 22:58:51 -0400
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Mon, 04 Sep 2017 23:20:20 -0400
 
 linux (1:4.9.35-2) stable; urgency=medium
 
