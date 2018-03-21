@@ -1,6 +1,6 @@
 --- a/scripts/package/Makefile
 +++ b/scripts/package/Makefile
-@@ -67,39 +67,6 @@
+@@ -66,39 +66,6 @@
  		$(UTS_MACHINE) -bb $(objtree)/binkernel.spec
  	rm binkernel.spec
  

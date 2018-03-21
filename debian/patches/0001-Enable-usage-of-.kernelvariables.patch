@@ -1,6 +1,6 @@
 --- a/Makefile
 +++ b/Makefile
-@@ -255,42 +255,6 @@
+@@ -257,42 +257,6 @@
  ARCH		?= $(SUBARCH)
  CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
  
@@ -43,9 +43,9 @@
  KCONFIG_CONFIG	?= .config
  export KCONFIG_CONFIG
  
-@@ -373,6 +337,43 @@
- CFLAGS_GCOV	:= -fprofile-arcs -ftest-coverage -fno-tree-loop-im $(call cc-disable-warning,maybe-uninitialized,)
- CFLAGS_KCOV	:= $(call cc-option,-fsanitize-coverage=trace-pc,)
+@@ -917,6 +881,43 @@
+ endif
+ export mod_sign_cmd
  
 +-include $(obj)/.kernelvariables
 +
@@ -85,5 +85,5 @@
 +# Where to locate arch specific headers
 +hdr-arch  := $(SRCARCH)
  
- # Use USERINCLUDE when you must reference the UAPI directories only.
- USERINCLUDE    := \
+ ifeq ($(KBUILD_EXTMOD),)
+ core-y		+= kernel/ certs/ mm/ fs/ ipc/ security/ crypto/ block/
