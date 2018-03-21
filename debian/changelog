@@ -1,3 +1,10 @@
+linux (1:4.9.88-1) UNRELEASED; urgency=medium
+
+  * New upstream version
+  * Added missing crypto modules (fixes #1)
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Wed, 21 Mar 2018 02:50:43 +0000
+
 linux (1:4.9.51-1) stable; urgency=medium
 
   * New upstream version
