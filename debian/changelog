@@ -1,3 +1,10 @@
+linux (1:4.9.147-1) UNRELEASED; urgency=medium
+
+  * New upstream version
+  * added CONFIG_BLK_DEV_DRBD module
+
+ -- Charles Leclerc <leclerc.charles@gmail.com>  Fri, 21 Dec 2018 22:33:29 -0500
+
 linux (1:4.9.135-1) stable; urgency=medium
 
   * New upstrean version

@@ -1,6 +1,6 @@
 --- /dev/null
 +++ b/arch/arm/configs/bubba3_defconfig
-@@ -0,0 +1,737 @@
+@@ -0,0 +1,736 @@
 +# CONFIG_LOCALVERSION_AUTO is not set
 +CONFIG_SYSVIPC=y
 +CONFIG_POSIX_MQUEUE=y
@@ -667,7 +667,6 @@
 +CONFIG_NFSD_V4=y
 +CONFIG_CIFS=m
 +CONFIG_CIFS_XATTR=y
-+CONFIG_CIFS_POSIX=y
 +CONFIG_NLS_CODEPAGE_437=y
 +CONFIG_NLS_CODEPAGE_850=y
 +CONFIG_NLS_ISO8859_1=y
